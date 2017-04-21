@@ -1,0 +1,33 @@
+{
+  "name": "kuty",
+  "version": "0.0.1",
+  "description": "A Hexo theme with fresh smell",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gedennis/kuty.git"
+  },
+  "keywords": [
+    "Hexo",
+    "theme",
+    "kuty"
+  ],
+  "author": "Dennis.ge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gedennis/kuty/issues"
+  },
+  "homepage": "https://github.com/gedennis/kuty#readme",
+  "dependencies": {
+    "hexo": "^3.3.1",
+    "hexo-generator-archive": "^0.1.4",
+    "hexo-generator-category": "^0.1.3",
+    "hexo-generator-feed": "^1.2.0",
+    "hexo-generator-index": "^0.2.1",
+    "hexo-generator-tag": "^0.2.0",
+    "hexo-renderer-jade": "^0.1.0",
+    "hexo-renderer-marked": "^0.2.10",
+    "hexo-generator-json-content": "^2.2.0",
+    "hexo-renderer-stylus": "^0.3.3",
+    "hexo-server": "^0.2.0"
+  }
+}

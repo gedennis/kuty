@@ -1,0 +1,82 @@
+# Theme version
+version: 1.3.0
+
+# Header
+menu:
+  - page: home
+    directory: .
+    icon: fa-home
+  - page: archive
+    directory: archives/
+    icon: fa-archive
+  - page: about
+    directory: about/
+    icon: fa-user
+  - page: comments
+    directory: comments/
+    icon: fa-commt
+
+# Sidebar
+widgets:
+  - search
+  - category
+  - archive
+  - recent_posts
+  - recent_comments
+  - tag
+  ##- weibo
+  ##- links
+
+# Static files
+js: js
+css: css
+
+# Extensions
+Plugins:
+  hexo-generator-feed
+  hexo-generator-sitemap
+  hexo-generator-baidu-sitemap
+
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+#sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+#Local search
+local_search: true ## Use a javascript-based local search engine, true/false.
+swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
+tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
+
+#Cmments
+duoshuo: yilinfengluo## Your duoshuo_shortname, e.g. username
+disqus: ## Your disqus_shortname, e.g. username
+
+# About page
+about:
+  photo_url: https://avatars3.githubusercontent.com/u/21010353?v=3&s=400 
+  email: gedennis@163.com
+  github_url: https://github.com/gedennis
+  github_name: dennis.ge
+
+# Friend link
+links:
+  - title: node
+    url: http://www.example1.com/
+  - title: site-name2
+    url: http://www.example2.com/
+  - title: site-name3
+    url: http://www.example3.com/
+
+
+# Miscellaneous
+show_category_count: true ## If you want to show the count of categories in the sidebar widget please set the value to true.
+widgets_on_small_screens: true ## Set to true to enable widgets on small screens.
+busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
+google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
+baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
